@@ -6,26 +6,33 @@ const Home: NextPage = () => {
   return (
     <Container>
       <header className='flex flex-col gap-3'>
-        <h1 className='font-semibold'>Cristian Crețu</h1>
+        <p>你好，很巧，我们在这遇到了，不如我来做个自我介绍 🧐</p>
         <p>
-          Developer and designer making products that feel &apos;right&apos; and
-          faster.{' '}
-          <span className='text-secondary'>
-            Focused on creating fluid and accessible interfaces.
-          </span>
+          目前我的职业是一名全职的前端工程师，已经在北京漂了4年。目标是找到一份remote
+          job，去一座有海的城市生活
         </p>
         <p>
-          Thinkering with digital art and creating visual interfaces.
-          Experimenting with 3D and CAD modeling.
+          我的家乡是冰城 - 哈尔滨，如果你想去那玩，我可以给你提供一些游玩建议 🤓
         </p>
         <p>
-          Interested in C, TypeScript, and Python. Curious about Rust and Swift.
-          Building products using React and Next.js.
+          我的爱好是摄影 📸，使用的设备是Sony A7R3 + Sigma 40mm
+          F1.4，比较擅长街头摄影，当然我也可以帮你拍一些人像（如果你有勇气的话lol)
         </p>
         <p>
-          Enjoying sports, design, and music. I listen to a lot of lo-fi and
-          electronic songs.
+          如果你想联系我，这是我的邮箱📮：{' '}
+          <span className='font-bold'>zhaomeicheng1@gmail.com</span>
         </p>
+        <div
+          className='font-bold underline'
+          style={{
+            background: 'linear-gradient(to right, #30CFD0 0%, #330867 100%)',
+            WebkitBackgroundClip: 'text',
+            color: 'transparent',
+            WebkitTextFillColor: 'transparent',
+          }}
+        >
+          你可以点击左上角来查看我博客的更多内容 / 修改日、夜间模式 ❤
+        </div>
       </header>
     </Container>
   )

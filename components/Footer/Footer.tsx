@@ -21,7 +21,7 @@ export default function Footer(): JSX.Element {
   return (
     <div className='text-tertiary py-4 flex justify-between'>
       <span>Prioritize yourself.</span>
-      <span>Local time {localTime}.</span>
+      <span>当前时间 {localTime}</span>
     </div>
   )
 }
