@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 
 export default function Footer(): JSX.Element {
   const [localTime, setLocalTime] = useState(
-    new Date().toLocaleString('ro-RO', {
-      timeZone: 'Europe/Bucharest',
+    new Date().toLocaleString('zh-CN', {
       hour: 'numeric',
       minute: 'numeric',
     })
@@ -12,8 +11,7 @@ export default function Footer(): JSX.Element {
   useEffect(() => {
     setInterval(() => {
       const date = new Date()
-      const time = date.toLocaleString('ro-RO', {
-        timeZone: 'Europe/Bucharest',
+      const time = date.toLocaleString('zh-CN', {
         hour: 'numeric',
         minute: 'numeric',
       })
