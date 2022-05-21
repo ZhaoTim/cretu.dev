@@ -6,6 +6,24 @@ const Home: NextPage = () => {
   return (
     <Container>
       <header className='flex flex-col gap-3'>
+        <div className='alert alert-success shadow-lg'>
+          <div>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              className='stroke-current flex-shrink-0 w-6 h-6'
+            >
+              <path
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+              ></path>
+            </svg>
+            <span>点击左上角来查看我博客的更多内容 / 修改日、夜间模式 ❤</span>
+          </div>
+        </div>
         <p>你好，很巧，我们在这遇到了，不如我来做个自我介绍 🧐</p>
         <p>
           目前我的职业是一名全职的前端工程师，已经在北京漂了4年。目标是找到一份remote
@@ -22,17 +40,6 @@ const Home: NextPage = () => {
           如果你想联系我，这是我的邮箱📮：{' '}
           <span className='font-bold'>zhaomeicheng1@gmail.com</span>
         </p>
-        <div
-          className='font-bold underline'
-          style={{
-            background: 'linear-gradient(to right, #30CFD0 0%, #330867 100%)',
-            WebkitBackgroundClip: 'text',
-            color: 'transparent',
-            WebkitTextFillColor: 'transparent',
-          }}
-        >
-          你可以点击左上角来查看我博客的更多内容 / 修改日、夜间模式 ❤
-        </div>
       </header>
     </Container>
   )
